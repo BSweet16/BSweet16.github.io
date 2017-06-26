@@ -1,0 +1,40 @@
+---
+---
+//colors
+$color_alto_approx: rgb(222, 222, 222);
+$color_cardinal_approx: #c31337;
+$color_pumice_approx: rgb(200, 200, 200);
+$color_shady_lady_approx: rgb(165, 165, 165);
+$color_pippin_approx: rgb(255,222,223);
+$color_gray: #CECECE;
+$color_light_gray: rgb(236, 236, 236);
+$black: black;
+$color_silver_chalice_approx: #aaa;
+
+
+//sizes
+
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$mobile-width: $tablet-width - 1;
+
+
+
+//ID Tags
+
+#ShowCase{
+	background-color: lightgreym;
+}
+
+
+.col-lg-4{
+	img{
+		max-width: 100%;
+	}
+}
+
+.row{
+	font-size: 16px;
+}
+
+
