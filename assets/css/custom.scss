@@ -27,14 +27,30 @@ $mobile-width: $tablet-width - 1;
 }
 
 
-.col-lg-4{
-	img{
-		max-width: 100%;
-	}
-}
+// CSS Styling
 
 .row{
 	font-size: 16px;
+	background-color: lightgrey;
+
+	.col-lg-4{
+		img{
+			width: 100%;
+		}
+	}
 }
 
+h2{
+	margin-top: 10%;
+}
+
+h1, h2{
+	background-color: #3A70AB;
+}
+
+ul{
+	li{
+		text-align: center;
+	}
+}
 
