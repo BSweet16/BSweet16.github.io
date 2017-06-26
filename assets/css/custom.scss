@@ -23,7 +23,7 @@ $mobile-width: $tablet-width - 1;
 //ID Tags
 
 #ShowCase{
-	background-color: lightgreym;
+	background-color: lightgrey;
 }
 
 
@@ -31,6 +31,7 @@ $mobile-width: $tablet-width - 1;
 
 .row{
 	font-size: 16px;
+	margin-bottom: 10%;
 	background-color: lightgrey;
 
 	.col-lg-4{
@@ -48,6 +49,7 @@ h1, h2{
 	background-color: #3A70AB;
 	color: white;
 	text-shadow: 2px 2px black;
+	margin-top: 0px;
 }
 
 ul{
