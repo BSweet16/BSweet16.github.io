@@ -30,20 +30,23 @@ $mobile-width: $tablet-width - 1;
 	}
 }
 
-#Education{
+#Education, #Experience, #Volunteering{
 	background-color: grey;
 
 	h3{
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
+
+	.row{
+		margin: auto;
+		padding-bottom: 20px;
+	}
 }
 
 #ContentsTable{
 	background: linear-gradient(to bottom right, white, silver, darkgrey, silver, white);
 	box-shadow: 20px 20px lightgrey;
-	width: 125%;
-	margin: auto;
 	margin-bottom: 50px;
 
 	ul{
@@ -57,8 +60,8 @@ $mobile-width: $tablet-width - 1;
 		}
 	}
 
-	h1{
-		width: 100%;
+	p{
+		margin: auto;
 	}
 }
 
@@ -73,8 +76,6 @@ $mobile-width: $tablet-width - 1;
 .row{
 	font-size: 16px;
 	margin-bottom: 10%;
-	margin-left: 15%;
-	margin-right: -15%;
 	background-color: lightgrey;
 
 	.col-lg-4{
