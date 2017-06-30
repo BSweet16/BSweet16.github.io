@@ -25,7 +25,7 @@ $mobile-width: $tablet-width - 1;
 #ShowCase{
 	background-color: lightgrey;
 
-	h1{
+	h2{
 		background-color: limegreen;
 	}
 }
@@ -39,7 +39,34 @@ $mobile-width: $tablet-width - 1;
 	}
 }
 
+#ContentsTable{
+	background: linear-gradient(to bottom right, white, silver, darkgrey, silver, white);
+	box-shadow: 20px 20px lightgrey;
+	width: 125%;
+
+	ul{
+		color: transparent;
+
+		li > a, 
+		li > a:hover{
+			font-size: 25px;
+			color: blue;
+			text-decoration: none;
+		}
+	}
+
+	h1{
+		width: 100%;
+	}
+}
+
 // CSS Styling
+
+.center {
+	text-align: center;
+	margin: auto;
+	display: block;
+}
 
 .row{
 	font-size: 16px;
@@ -59,6 +86,11 @@ $mobile-width: $tablet-width - 1;
 			max-height: 80px;
 			padding-bottom: 5%;
 		}
+	}
+
+	ul > li{
+		text-align: left;
+		font-size: 22px;
 	}
 }
 
