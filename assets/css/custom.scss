@@ -43,6 +43,8 @@ $mobile-width: $tablet-width - 1;
 	background: linear-gradient(to bottom right, white, silver, darkgrey, silver, white);
 	box-shadow: 20px 20px lightgrey;
 	width: 125%;
+	margin: auto;
+	margin-bottom: 50px;
 
 	ul{
 		color: transparent;
@@ -71,6 +73,8 @@ $mobile-width: $tablet-width - 1;
 .row{
 	font-size: 16px;
 	margin-bottom: 10%;
+	margin-left: 15%;
+	margin-right: -15%;
 	background-color: lightgrey;
 
 	.col-lg-4{
