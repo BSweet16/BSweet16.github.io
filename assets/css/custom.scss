@@ -127,6 +127,12 @@ $mobile-width: $tablet-width - 1;
 	}
 }
 
+.wrapper{
+	img{
+		border-radius: 50px;
+	}
+}
+
 h2{
 	margin-top: 10%;
 }
