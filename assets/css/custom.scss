@@ -30,7 +30,7 @@ $mobile-width: $tablet-width - 1;
 	}
 }
 
-#Education, #Experience, #Volunteering{
+#Education, #Experience, #Volunteering_Awards{
 	background-color: grey;
 
 	h3{
@@ -41,6 +41,13 @@ $mobile-width: $tablet-width - 1;
 	.row{
 		margin: auto;
 		padding-bottom: 20px;
+	}
+}
+
+#Volunteering_Awards{
+	p{
+		padding-top: 6%;
+		padding-bottom: 6%;
 	}
 }
 
@@ -86,10 +93,25 @@ $mobile-width: $tablet-width - 1;
 		}
 	}
 
+	.col-lg-6{
+		ul{
+			color: transparent;
+
+			li > p{
+				color: black;
+			}
+		}
+	}
+
 	.col-lg-8{
 		img{
 			max-height: 80px;
 			padding-bottom: 5%;
+		}
+
+		p{
+			padding-top: 2%;
+			font-size: 18px;
 		}
 	}
 
