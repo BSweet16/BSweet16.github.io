@@ -18,35 +18,37 @@
       <header>
 
         <!-- Non-Scrolling Info -->
-        <div>
-        <a href="/"><img src="/assets/images/me.JPG" alt="Blake"></a> <br><br>
+        <div class="info">
+          <div>
+          <a href="/"><img src="/assets/images/me.JPG" alt="Blake"></a> <br><br>
 
-        <h1 style="background-color: transparent; color: black; text-shadow: 0px 0px;">{{ site.title }}</h1>
-          <p><b>Email: </b> blake.sweet16@gmail.com </p>
-          <p><b>Phone Number: </b>(859) 351 - 5021</p>
-        </div>
+          <h1 style="background-color: transparent; color: black; text-shadow: 0px 0px;">{{ site.title }}</h1>
+            <p><b>Email: </b> blake.sweet16@gmail.com </p>
+            <p><b>Phone Number: </b>(859) 351 - 5021</p>
+          </div>
 
-        <!-- Download Buttons -->
-        {% if site.show_downloads %}
-        <div style="padding-top: 5%">
-          <ul>
-            <li><a href="assets/BlakeSweet.pdf">Download <strong>Resume</strong></a></li>
-            <li><a href="https://www.linkedin.com/in/blake-sweet-097741117/" target="_blank">View On <strong>Linked In</strong></a></li>
-            <li><a href="https://github.com/buzzysweet" target="_blank">View On <strong>GitHub</strong></a></li>
+          <!-- Download Buttons -->
+          {% if site.show_downloads %}
+          <div style="padding-top: 5%">
+            <ul>
+              <li><a href="assets/BlakeSweet.pdf">Download <strong>Resume</strong></a></li>
+              <li><a href="https://www.linkedin.com/in/blake-sweet-097741117/" target="_blank">View On <strong>Linked In</strong></a></li>
+              <li><a href="https://github.com/buzzysweet" target="_blank">View On <strong>GitHub</strong></a></li>
+            </ul>
+          </div>
+          {% endif %}
+          <!-- /Download Buttons -->
+
+          <!-- Coding Languages -->
+          <h3>Coding Languages</h3>
+          <ul> 
+            <li>C++</li>
+            <li>HTML/CSS</li>
+            <li>Python</li>
+            <li></li>
           </ul>
-        </div>
-        {% endif %}
-        <!-- /Download Buttons -->
-
-        <!-- Coding Languages -->
-        <h3>Coding Languages</h3>
-        <ul> 
-          <li>C++</li>
-          <li>HTML/CSS</li>
-          <li>Python</li>
-          <li></li>
-        </ul>
-        <!-- /Coding Languages -->
+          <!-- /Coding Languages -->
+        </div> <!-- /Non-Scrolling Info -->
 
       </header>
       <section>
